@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+header, footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #c52f24;
+    color: #fff;
+    margin: 0px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.main_container {
+    margin: 50px 15px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+table p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 21.440px 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px 20px;
+    border: solid 1px black;
+}
+
+table th {
+    background-color: #ffdfdf;
+    
+}
+
+table td {
+    background-color: #f1c8c861;
+    text-align: center;
+}
+
+.notice {
+    background-color: #ccf;
+    padding: 5px;
+}
+
+input {
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+textarea {
+    width: 350px;
+    height: 200px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type=submit] {
+    width: auto;
+}
+
+.notice {
+    background-color: rgb(145, 226, 186);
+    padding: 5px;
+   }
+
+.error_title {
+    background-color: #ec98ac8f;
+    border: 2px solid #ec7592; 
+    padding: 15px;
+    font-weight: nomal;
+    width: 530px;
+    text-align: center;
+}
